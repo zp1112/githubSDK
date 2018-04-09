@@ -3,7 +3,7 @@
  */
 export default function(opts) {
   return {query: `{
-      repository(owner: ${opts.owner ? `"${opts.owner}"` : "zp1112"}, name: ${opts.name ? `"${opts.name}"` : "blog"}) {
+      repository(owner: ${opts.owner ? `"${opts.owner}"` : '"zp1112"'}, name: ${opts.name ? `"${opts.name}"` : '"blog"'}) {
         issue(number: ${opts.number || 0}) {
           title
           author {

@@ -12,12 +12,10 @@
     "graphql"
   ],
   "homepage": "https://github.com/zp1112/githubSDK#readme",
-  // 项目源码地址
   "repository": {
     "type": "git",
     "url": "git@github.com:zp1112/githubSDK.git"
   },
-  // 提交issue的地址
   "bugs": {
     "url": "https://github.com/zp1112/githubSDK/issues"
   },

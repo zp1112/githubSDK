@@ -2,7 +2,7 @@
  * Created by Candy on 2018/4/9.
  */
 
-import sdk from './index';
+import sdk from './src/index';
 
 (async () => {
   const githubSdk = sdk({
